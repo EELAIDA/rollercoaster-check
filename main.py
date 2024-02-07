@@ -19,15 +19,15 @@ while running:
     print("Rollercoaster-check™")
     age = input("Voer leeftijd in: ")
     height = input("Voer lengte in: ")
-    age = int(age)
-    height = int(height)
+    age = int(16)
+    height = int(120)
 
     #Process checks
     if(age > age_check and height > height_check):
         os.system('cls')
         print("Stap maar in!")
         print(coasterimg.get())
-        time.sleep(1)
+        time.sleep(30)
 
     else:
         os.system('cls')
